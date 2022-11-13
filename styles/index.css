@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Arvo', serif;
+}
+
+.navbar {
+    width: 100vw;
+    height: 120px;
+    background-color: #aa0000;
+}
+
+.navbar__icon {
+    width: 140px;
+}
+.navbar__icon img {
+    width: 100%;
+}
+/* .navbar__list {
+    display: none;
+} */

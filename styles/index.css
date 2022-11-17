@@ -10,16 +10,44 @@ html {
 
 .navbar {
     width: 100vw;
-    height: 120px;
+    height: 100px;
+    padding: 0 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #aa0000;
 }
 
 .navbar__icon {
-    width: 140px;
+    width: 198px;
+    padding-top: 4px;
 }
-.navbar__icon img {
+
+.navbar__icon a img {
     width: 100%;
 }
+
+.navbar .navbar__burguer-icon {
+    width: 60px;
+    height: 60px;
+}
+
+.navbar__burguer-icon div {
+    width: 100%;
+    height: 100%;
+    background-image: url("../design/icons/burguer-icon.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* .navbar__burguer-icon {
+    width: 40px;
+} */
+/* .navbar__burguer-icon span {
+    width: 100%;
+    background-image: url("../design/icons/burguer-icon.png");
+} */
 /* .navbar__list {
     display: none;
 } */

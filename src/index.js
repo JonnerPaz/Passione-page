@@ -1,5 +1,5 @@
 // navbar toggle
-const burguerIcon = document.querySelector('.header__burguer-icon')
+const burguerIcon = document.querySelector('.navbar__burguer-icon')
 const navbarComponent = document.querySelector('.navbar__mobile-component')
 
 burguerIcon.addEventListener('click', () => {

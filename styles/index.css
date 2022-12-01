@@ -6,11 +6,19 @@
 
 html {
     font-family: 'Arvo', serif;
+    font-size: 62.5%;
 }
 
 :root {
     --main-background-color: #aa0000;
+    --fnt-big: 2.2rem;
+    --fnt-medium: 1.8rem
 }
+
+/* body {
+    background-color: #aa223f;
+    color: azure;
+} */
 
 .navbar {
     width: 100vw;
@@ -22,24 +30,23 @@ html {
     background-color: #aa0000;
 }
 
-.header__icon {
+.navbar__icon {
     width: 198px;
     padding-top: 4px;
 }
 
-.header__icon a img {
+.navbar__icon a img {
     width: 100%;
 }
 
-.navbar .header__burguer-icon {
+.navbar .navbar__burguer-icon {
     width: 60px;
     height: 60px;
 }
 
-.header__burguer-icon div {
+.navbar__burguer-icon div {
     width: 100%;
     height: 100%;
-    position: relative;
     background-image: url("../design/icons/burguer-icon.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -48,19 +55,74 @@ html {
 
 .navbar__mobile-component {
     width: 100vw;
-    height: 100vh;
-    border: 1px solid black;
+    height: 50vh;
     position: absolute;
+    top: 99px;
+    right: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    font-size: var(--fnt-big);
+    background-color: #aa0000;
 }
 
 .navbar__mobile-component--hidden {
     display: none;
 }
 
-.navbar__mobile-component .list__item {
+.navbar__mobile-component .list__item, .list__item a {
     list-style: none;
+    text-decoration: none;
+}
+
+main {
+    margin: 12px 12px 0; /* top and horizontal margin, 0 bottom */
+    line-height: 2.6rem;
+}
+
+main img {
+    width: 30px;
+}
+
+.campaing {
+    height: 33vh;
+    margin-top: 40px;
+}
+.campaing .campaing__title{
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: var(--fnt-big);
+}
+
+.campaing p{
+    margin-top: 27px;
+    padding: 0 12px;
+    font-size: var(--fnt-medium);
+    text-align: justify;
+}
+
+.brief-presentation{
+    height: 30vh;
+    margin-top: 20px;
+    margin-bottom: 8px;   
+}
+
+.brief-presentation .brief-presentation-title {
+    text-align: center;
+    font-size: 1.9rem;
+}
+
+.presentation-container {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.presentation-container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
 }

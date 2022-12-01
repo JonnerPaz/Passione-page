@@ -11,39 +11,45 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-    <script src="./index.js" defer></script>
+    <script src="./src/index.js" defer></script>
 </head>
 
 <body>
 
     
     <header class="navbar">
-
-        <div class="header__icon">
+        <div class="navbar__icon">
             <a href="./index.html">
                 <img src="./design/psuv-logo.png" alt="psuv political socialist group logo">
             </a>
         </div>
-
-        <div class="header__burguer-icon">
+        <div class="navbar__burguer-icon">
             <div><!--here goes the pic--></div>
         </div>
-
-            <div class="navbar__mobile-component navbar__mobile-component--hidden">
-                <ul class="navbar__list">
-                    <li class="list__item">Inicio</li>
-                    <li class="list__item">Partipantes</li>
-                    <li class="list__item">Campañas</li>
-                </ul>
-            </div>
+        <div class="navbar__mobile-component navbar__mobile-component--hidden">
+                <li class="list__item"><a href="./index.html">Inicio</a></li>
+                <li class="list__item"><a href="">Partipantes</a></li>
+                <li class="list__item"><a href="">Campañas</a></li>
+        </div>
     </header>
     
     <main>
-        <section class="">
-            <h1>Elecciones presidenciales de Passione para el periodo de 2022 - 2023</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, optio modi, odio molestias possimus tenetur ab nobis blanditiis placeat similique voluptatum! Repudiandae unde sint, expedita quod consequatur dolorum optio quos!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates laudantium itaque, voluptas quo quibusdam accusamus ipsum blanditiis possimus iste aliquid reprehenderit, eos commodi sequi veritatis voluptatum ullam saepe impedit! Distinctio.</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, suscipit officiis facilis natus similique saepe modi deserunt magni consectetur sunt provident. Ea quibusdam dolores hic dolorem nisi necessitatibus voluptas tenetur.</p>
+        <section class="campaing">
+            <h1 class="campaing__title">Elecciones presidenciales de Passione</h1>
+            <p>Bienvenido! aqui podras visualizar todos los candidatos postulados para este periodo de elecciones,
+                donde los participantes se van a caer a coñazos para ver quién es el mejor capacitado para asumir
+                el cargo tan importante como es el lider, el dictador, el todo poderoso de Passione. 
+            </p>
+        </section>
+
+        <section class="brief-presentation">
+            <h3 class="brief-presentation-title">Conoce y vota por el candidato del futuro</h3>
+            <div class="presentation-container">
+                <img src="./design/tinified-cesar.jpg" alt="">
+                <img src="./design/tinified-cesar.jpg" alt="">
+                <img src="./design/tinified-cesar.jpg" alt="">
+            </div>
+            <p>Decide quien velara por el futuro de Passione!</p>
         </section>
     </main>
 

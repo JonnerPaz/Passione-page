@@ -1,3 +1,3 @@
 # TODO
 
-* Start making navbar component
+* Try to add design system

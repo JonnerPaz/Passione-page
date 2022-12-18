@@ -101,7 +101,7 @@ main img {
 }
 
 .campaing p {
-    padding: 0 12px;
+    padding: 0 20px;
     font-size: var(--fnt-medium);
     text-align: justify;
 }
@@ -110,27 +110,32 @@ main img {
     margin-top: 26px;
 }
 
-.brief-presentation .brief-presentation-title {
+.brief-presentation-title {
     margin-bottom: 4px;
     text-align: center;
     font-size: 1.9rem;
     color: var(--main-fontColor);
 }
 
-.brief-presentation .presentation-scndText, .presentation-scndText a {
+.presentation-scndText, .presentation-scndText a {
     color: var(--scnd-fontColor);
     text-decoration: none;
 }
 
+.presentation-scndText:hover, .presentation-scndText a:hover {
+    text-decoration: underline;
+}
+
 .brief-presentation p {
     font-size: 1.4rem;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
     text-align: center;
 }
 
 /* Cards */
 .presentation-card-layout {
     width: 100%;
+    margin-bottom: 12px;
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     justify-items: center;
@@ -176,7 +181,7 @@ main img {
 }
 
 .mision p {
-    padding: 0 12px;
+    padding: 0 20px;
     font-size: var(--fnt-medium);
     text-align: justify;
 }

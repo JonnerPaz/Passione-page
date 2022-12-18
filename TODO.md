@@ -1,4 +1,4 @@
 # TODO
 
-* Try to add design system
-* Add width and height to img and icon
+* Add social media icons
+* Modify burguer selection toggle

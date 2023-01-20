@@ -1,0 +1,8 @@
+.navbar-container {
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar__burguer-icon {
+    display: none;
+}

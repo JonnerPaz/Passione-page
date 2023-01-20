@@ -1,4 +1,4 @@
 # TODO
 
-* Add social media icons
-* Modify burguer selection toggle
+* Add responsive
+* Modify burguer selection toggle (desktop)
